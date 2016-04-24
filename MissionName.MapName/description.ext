@@ -1,0 +1,18 @@
+showHUD[] =
+{
+    true,	// Scripted HUD (same as showHUD command)
+	false,	// Vehicle + soldier info
+	true,	// Vehicle radar [HIDDEN]
+	true,	// Vehicle compass [HIDDEN]
+	true,	// Tank direction indicator
+	true,	// Commanding menu
+	true,	// Group Bar
+	true	// HUD Weapon Cursors
+};
+
+#include "scarCODE\scarHUD\cfg\CfgStanceImages.hpp"
+
+class RscTitles // Can not be defined more than once
+{
+	#include "scarCODE\scarHUD\RscTitles.hpp"
+};
